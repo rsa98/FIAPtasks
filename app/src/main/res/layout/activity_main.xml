@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@drawable/style_background_login"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        android:paddingHorizontal="16dp"
+        android:drawablePadding="8dp"
+        android:drawableStart="@drawable/custom_ic_email"
+        android:background="@drawable/style_input_login"
+        android:hint="Email"
+        android:textSize="16sp"
+        android:textColorHint="@color/textInput"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeText" />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:paddingHorizontal="16dp"
+        android:drawablePadding="8dp"
+        android:drawableStart="@drawable/custom_ic_lock"
+        android:background="@drawable/style_input_login"
+        android:hint="Senha"
+        android:textSize="16sp"
+        android:textColorHint="@color/textInput"
+        app:layout_constraintTop_toBottomOf="@+id/emailInput" />
+
+    <Button
+        android:id="@+id/entrarButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:paddingHorizontal="16dp"
+        android:drawablePadding="8dp"
+        android:background="@drawable/style_button_login"
+        android:hint="Entrar"
+        android:textSize="16sp"
+        android:textColorHint="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/passwordInput" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
