@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/rafae/AndroidStudioProjects/FIAPtasks/app/src/main/res/drawable/style_button_login.xml" value="0.1" />
+        <entry key="..\:/Users/rafae/AndroidStudioProjects/FIAPtasks/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/rafae/AndroidStudioProjects/FIAPtasks/app/src/main/res/layout/activity_tela2.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/rafae/AndroidStudioProjects/FIAPtasks/app/src/main/res/layout/proxima_tela.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/custom_ic_email.xml" value="0.1615" />
         <entry key="app/src/main/res/drawable/custom_ic_lock.xml" value="0.1615" />
         <entry key="app/src/main/res/drawable/ic_email_focused.xml" value="0.1615" />
