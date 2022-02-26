@@ -12,8 +12,9 @@
         android:id="@+id/welcomeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Novo teste"
-        android:textSize="56sp"
+        android:text="Bem-vindo"
+        android:textSize="24sp"
+        android:textColor="@color/textInput"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -58,5 +59,17 @@
         android:textSize="16sp"
         android:textColorHint="@color/white"
         app:layout_constraintTop_toBottomOf="@+id/passwordInput" />
+
+    <TextView
+        android:id="@+id/copyrightText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feito com muito stress e amor.\n Copyright © Todos os direitos reservados."
+        android:textSize="12sp"
+        android:textAlignment="center"
+        android:textColor="@color/textInput"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
