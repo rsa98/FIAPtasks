@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ic_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"/>
+    <item
+        android:id="@+id/ic_tarefas"
+        android:icon="@drawable/ic_home"
+        android:title="Tarefas"/>
+    <item
+        android:id="@+id/ic_loja"
+        android:icon="@drawable/ic_home"
+        android:title="Ranking"/>
+    <item
+        android:id="@+id/ic_ranking"
+        android:icon="@drawable/ic_home"
+        android:title="Loja"/>
+    <item
+        android:id="@+id/ic_perfil"
+        android:icon="@drawable/ic_home"
+        android:title="Perfil"/>
+    <item
+        android:id="@+id/ic_ajuda"
+        android:icon="@drawable/ic_home"
+        android:title="Ajuda"/>
+    <item
+        android:id="@+id/ic_desconectar"
+        android:icon="@drawable/ic_home"
+        android:title="Desconectar"/>
+
+
+</menu>

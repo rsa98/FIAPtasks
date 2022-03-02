@@ -15,15 +15,15 @@ class MainActivity : AppCompatActivity() {
 
         button.setOnClickListener{
 
-            ir()
+            irParaSegundaTela()
 
         }
     }
 
-    private fun ir(){
+    private fun irParaSegundaTela(){
 
-     val dois = Intent(this,Tela2Activity::class.java)
-    startActivity(dois)
+     val segundaTela = Intent(this, SegundaTela::class.java)
+    startActivity(segundaTela)
 
     }
 }
