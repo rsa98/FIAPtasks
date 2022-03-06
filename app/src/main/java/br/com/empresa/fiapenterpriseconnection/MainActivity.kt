@@ -8,22 +8,19 @@ import android.widget.Button
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        val button: Button = findViewById(R.id.entrarButton)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-
-        button.setOnClickListener{
-
+        //Declarar dentro do OnCreate:
+        val button: Button = findViewById(R.id.entrarButton)
+        button.setOnClickListener {
             irParaSegundaTela()
-
         }
     }
 
-    private fun irParaSegundaTela(){
+    private fun irParaSegundaTela() {
 
-     val segundaTela = Intent(this, SegundaTela::class.java)
-    startActivity(segundaTela)
+        val segundaTela = Intent(this, SegundaTela::class.java)
+        startActivity(segundaTela)
 
     }
 }

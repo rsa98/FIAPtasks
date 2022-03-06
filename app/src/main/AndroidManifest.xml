@@ -11,17 +11,17 @@
         android:theme="@style/Theme.Fiapenterpriseconnection">
         <activity
             android:name=".MainActivity"
-            android:exported="false" />
-
-        <activity
-            android:name=".SegundaTela"
             android:exported="true">
+<!--            A Activity que possui o código do intent-filter irá abrir: -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".SegundaTela"
+            android:exported="false" />
     </application>
 
 </manifest>
