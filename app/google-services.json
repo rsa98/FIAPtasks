@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1079025432375",
+    "firebase_url": "https://fiapprojetoesg-default-rtdb.firebaseio.com",
+    "project_id": "fiapprojetoesg",
+    "storage_bucket": "fiapprojetoesg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079025432375:android:ebe735156c1eb395b7ccb2",
+        "android_client_info": {
+          "package_name": "br.com.fiap.loginfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079025432375-vi1ip4bru09n0gijf86lg0v4l53k7op6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJL0MTP9Cftxe5C3eyVu5m6ghXlOCJgk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079025432375-vi1ip4bru09n0gijf86lg0v4l53k7op6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

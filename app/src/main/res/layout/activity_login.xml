@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/titleLabelTil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Login"
+        style="@style/TextAppearance.MaterialComponents.Headline4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Entre pela sua conta"
+        android:layout_below="@+id/titleLabelTil"
+        style="@style/TextAppearance.AppCompat.Caption"/>
+
+    <!--Email-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/emailTil"
+        android:layout_above="@id/senhaTil"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/emailEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--Senha-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/senhaTil"
+        app:passwordToggleEnabled="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:id="@+id/senhaET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Senha"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--Botão de Login-->
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:layout_below="@id/senhaTil"
+        android:layout_marginTop="10dp"/>
+
+    <!--Novo cadastro-->
+    <TextView
+        android:id="@+id/semConta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sem_conta"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        style="@style/TextAppearance.MaterialComponents.Caption"        />
+
+
+</RelativeLayout>
