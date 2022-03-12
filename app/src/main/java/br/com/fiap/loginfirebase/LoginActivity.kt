@@ -75,7 +75,7 @@ class LoginActivity : AppCompatActivity() {
             binding.senhaEt.error = "Por favor, digite a senha para entrar"
         }
         else {
-            //Dados validados, iniciando o login
+            //Iniciando o login
             firebaseLogin()
         }
     }
