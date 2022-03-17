@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Login Firebase</string>
+    <string name="sem_conta">Ainda não tem conta? <b>Inscreva-se</b></string>
+</resources>
